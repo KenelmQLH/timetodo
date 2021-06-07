@@ -1,0 +1,51 @@
+{
+  "id": "2595386",
+  "name": "todoList",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-class",
+  "description": "todoList",
+  "glyphs": [
+    {
+      "icon_id": "248978",
+      "name": "date",
+      "font_class": "date",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "667501",
+      "name": "radio button",
+      "font_class": "radioyes",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "2510082",
+      "name": "radiobox",
+      "font_class": "radiocircle",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    },
+    {
+      "icon_id": "10390906",
+      "name": "导航",
+      "font_class": "navicon",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "4784097",
+      "name": "历史",
+      "font_class": "history",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "5747608",
+      "name": "列表",
+      "font_class": "todaylist",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}
