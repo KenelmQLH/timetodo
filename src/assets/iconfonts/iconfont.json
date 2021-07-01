@@ -6,6 +6,41 @@
   "description": "todoList",
   "glyphs": [
     {
+      "icon_id": "485741",
+      "name": "叉号",
+      "font_class": "overdue",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "588248",
+      "name": "新建",
+      "font_class": "addlist",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "648801",
+      "name": "沙漏",
+      "font_class": "timeleft",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "3773229",
+      "name": "12_时间_沙漏",
+      "font_class": "deadline",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "826072",
+      "name": "编辑",
+      "font_class": "edit",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
       "icon_id": "248978",
       "name": "date",
       "font_class": "date",

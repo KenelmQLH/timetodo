@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2595386 */
-  src: url('iconfont.woff2?t=1623028151017') format('woff2'),
-       url('iconfont.woff?t=1623028151017') format('woff'),
-       url('iconfont.ttf?t=1623028151017') format('truetype');
+  src: url('iconfont.woff2?t=1623207806806') format('woff2'),
+       url('iconfont.woff?t=1623207806806') format('woff'),
+       url('iconfont.ttf?t=1623207806806') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,26 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-classoverdue:before {
+  content: "\e604";
+}
+
+.icon-classaddlist:before {
+  content: "\e6bf";
+}
+
+.icon-classtimeleft:before {
+  content: "\e632";
+}
+
+.icon-classdeadline:before {
+  content: "\e616";
+}
+
+.icon-classedit:before {
+  content: "\e600";
 }
 
 .icon-classdate:before {

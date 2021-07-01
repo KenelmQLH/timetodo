@@ -48,7 +48,9 @@ import {
   Timeline,
   TimelineItem,
   RadioGroup,
-  RadioButton
+  RadioButton,
+  Calendar,
+  DatePicker
 } from 'element-ui'
 Vue.use(Button)
 Vue.use(Form)
@@ -91,6 +93,8 @@ Vue.use(Timeline)
 Vue.use(TimelineItem)
 Vue.use(RadioGroup)
 Vue.use(RadioButton)
+Vue.use(Calendar)
+Vue.use(DatePicker)
 
 // 引入弹框提示组件 Message 需要全局引用 使用 Vue.prototype
 Vue.prototype.$message = Message

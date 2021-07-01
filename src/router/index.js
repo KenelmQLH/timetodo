@@ -2,19 +2,27 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
-const Home = () => import(/* webpackChunkName: "login_home_welome" */ '../components/home/Home')
-const Today = () => import(/* webpackChunkName: "login_home_welome" */ '../components/home/today/Today')
-const History = () => import(/* webpackChunkName: "login_home_welome" */ '../components/home/history/History')
+const Login = () => import(/* webpackChunkName: "login" */ '../components/login/Login')
+const Home = () => import(/* webpackChunkName: "home" */ '../components/home/Home')
+const Today = () => import(/* webpackChunkName: "today" */ '../components/home/today/Today')
+const History = () => import(/* webpackChunkName: "history" */ '../components/home/history/History')
+const Deadline = () => import(/* webpackChunkName: "deadline" */ '../components/home/deadline/Deadline')
+
 const routes = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/login'
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
   },
   {
     path: '/home',
     name: 'Home',
-    // redirect: '/home'
     component: Home,
+    redirect: '/today',
     children: [
       {
         path: '/today',
@@ -23,14 +31,20 @@ const routes = [
       {
         path: '/history',
         component: History
+      },
+      {
+        path: '/deadline',
+        component: Deadline
       }
+
     ]
   }
 ]
 
 const router = new VueRouter({
-  routes
+  routes: routes
 })
+// mode: 'history',
 
 // router.beforeEach((to, from, next) => {
 //   // to 将访问哪一个路径

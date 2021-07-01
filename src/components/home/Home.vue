@@ -16,6 +16,10 @@
                         <i class="iconfont icon-classtodaylist bigger-iconfont"></i>
                         <span slot="title">每日清单</span>
                     </el-menu-item>
+                    <el-menu-item index="/deadline">
+                        <i class="iconfont icon-classtimeleft bigger-iconfont"></i>
+                        <span slot="title">重要清单</span>
+                    </el-menu-item>
                     <el-menu-item index="/history">
                         <i class="iconfont icon-classhistory bigger-iconfont"></i>
                         <span slot="title">历史清单</span>
@@ -31,6 +35,10 @@
                         <el-menu-item index="/today" @click="changeNav">
                             <i class="iconfont icon-classtodaylist bigger-iconfont"></i>
                             <span slot="title">每日清单</span>
+                        </el-menu-item>
+                         <el-menu-item index="/deadline" @click="changeNav">
+                            <i class="iconfont icon-classtimeleft bigger-iconfont"></i>
+                            <span slot="title">重要清单</span>
                         </el-menu-item>
                         <el-menu-item index="/history" @click="changeNav">
                             <i class="iconfont icon-classhistory bigger-iconfont"></i>

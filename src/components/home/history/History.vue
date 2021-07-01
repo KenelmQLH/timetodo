@@ -1,22 +1,24 @@
 <template>
     <div>
-        History! 
+        历史清单
     </div>
 </template>
 
-<style scoped>
+<style>
+
 </style>
 
 <script>
   export default {
-    data() {
+    data(){
         return {
-            isCollapse: true,
-            ifMobile: false
-        };
+        }
+    },
+    created(){
+        console.log('created history!',this.calendarRange);
     },
     mounted(){
-        console.log('mount !');
+        console.log('mount history!',this.calendarRange);
     },
     methods: {
     }
